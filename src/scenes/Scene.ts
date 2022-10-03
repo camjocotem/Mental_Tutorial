@@ -29,7 +29,7 @@ export class Scene extends Container {
             frame.on("click", (e: InteractionEvent) => { 
                 let innerRect = new Graphics();
                 innerRect.beginFill(0x222222);
-                innerRect.drawRect(0, 0, screenWidth /2, screenHeight /2);
+                innerRect.drawCircle(0, 0, 30);
                 let pos = e.data.getLocalPosition(this);
                 innerRect.position.set(pos.x, pos.y)
                 this.addChild(innerRect);
