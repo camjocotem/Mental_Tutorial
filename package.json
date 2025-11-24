@@ -19,5 +19,8 @@
     "eslint-plugin-prettier": "^5.2.6",
     "prettier": "^3.5.3",
     "vite": "^6.2.0"
+  },
+  "engines": {
+    "node": "22.18.0"
   }
 }
