@@ -1,3 +1,9 @@
+/**
+ * @typedef {Object} Emotion
+ * @property {string} emotion
+ * @property {Emotion[]} [children]
+ */
+
 /** @type {Emotion[]} */
 const Emotions = [
     {
