@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": ["es6"],
+        "allowImportingTsExtensions": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "checkJs": true  
+    },
+    "exclude": [
+        "public"
+    ],
+    "include": [
+        "src/**/*",
+        "node_modules/@pixi/**/*"
+    ]
+}
